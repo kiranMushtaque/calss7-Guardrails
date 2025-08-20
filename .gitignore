@@ -1,0 +1,46 @@
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Poetry & lock files
+poetry.lock
+*.lock
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dylib
+*.dll
+*.pyd
+
+# Logs
+*.log
+
+# Test & coverage outputs
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
+.mypy_cache/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
